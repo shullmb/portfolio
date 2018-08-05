@@ -11,7 +11,7 @@ class Terminal extends Component {
   }
 
   componentDidMount() {
-    let str = this.props.command ? this.props.command : "echo some other shit broke"
+    let str = this.props.command ? this.props.command : "echo 'some other shit broke'"
     let output = this.props.output ? this.props.output : "some other shit broke"
     let arr = str.split('')
     let command = []
@@ -19,7 +19,7 @@ class Terminal extends Component {
     arr.forEach( (char, i) => {
       i < 1 ? command.push(char) : command.push( `${command[i-1]}${char}`)
     })
-    console.log(command)
+
     command.forEach( (word, i) => {
       setTimeout( () => {
         this.setState({
@@ -42,9 +42,9 @@ class Terminal extends Component {
       <div className="container">
         <div className="t-window">
           <div className="top">
-            <span className="red">&bull;</span>
-            <span className="yellow">&bull;</span>
-            <span className="green">&bull;</span>
+            <span className="red">&bull; </span>
+            <span className="yellow">&bull; </span>
+            <span className="green">&bull; </span>
           </div>
           <div className="terminal">
             {cpu}

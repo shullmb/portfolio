@@ -4,5 +4,7 @@ import './styles/css/index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const menu = ['projects','skills','contact','resume']
+
+ReactDOM.render(<App menu={menu} />, document.getElementById('root'));
 registerServiceWorker();

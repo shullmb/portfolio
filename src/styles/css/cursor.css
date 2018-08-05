@@ -1,13 +1,13 @@
 #blinking-cursor {
-  font-weight: 100;
-  color: #2E3D48;
-  -webkit-animation: 0.75s blink step-end infinite;
-  -moz-animation: 0.75s blink step-end infinite;
-  -ms-animation: 0.75s blink step-end infinite;
-  -o-animation: 0.75s blink step-end infinite;
-  animation: 0.75s blink step-end infinite; }
+  font-weight: 800;
+  color: #fff2c0;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite; }
 
-@keyframes "blink" {
+@-webkit-keyframes blink {
   from, to {
     color: transparent; }
   50% {
@@ -19,19 +19,13 @@
   50% {
     color: white; } }
 
-@-webkit-keyframes "blink" {
+@-ms-keyframes blink {
   from, to {
     color: transparent; }
   50% {
     color: white; } }
 
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent; }
-  50% {
-    color: white; } }
-
-@-o-keyframes "blink" {
+@keyframes blink {
   from, to {
     color: transparent; }
   50% {

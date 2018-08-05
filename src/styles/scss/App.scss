@@ -17,11 +17,24 @@ body {
 nav {
   grid-area: menu;
   background-color: #FFF;
+  ul {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    li {
+      font-family: Consolas, 'Courier New', Courier, monospace;
+      font-weight: bold;
+    }
+  }
 }
+
 main {
   grid-area: main;
   background-color: #FFF;
 }
+
 footer {
   grid-area: footer;
   color: #222;
@@ -29,6 +42,9 @@ footer {
   justify-content: center;
   align-content: center;
   /* background-color: #FFF; */
+  p {
+    font-size: 0.8rem;
+  }
 }
 
 .content {
@@ -63,34 +79,30 @@ footer {
 .proj_info {
   padding: 2em;
   color: #FFF;
+  h3 {
+    color: #eee;
+    text-align: center;
+  }
 }
 
-.proj_info h3 {
-  color: #eee;
-  text-align: center;
-}
 
 .hidden {
   display: none;
-}
-
-footer p {
-  font-size: 0.8rem;
 }
 
 .btn {
   position: relative;
   width: 100%;
   display: block;
-  margin: 1em auto;
+  margin: 1em 0;
   padding: 1em;
   border-width: 0;
   background-color: #FFF;
   color: #000;
   transition: background-color .3s;
-  text-transform: uppercase;  
+  // text-transform: uppercase;  
   text-decoration: none;
-  text-align: center
+  // text-align: center
 }
 
 .btn:hover, .btn:focus {

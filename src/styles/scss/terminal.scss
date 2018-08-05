@@ -1,17 +1,16 @@
-$charlotte: #111;
-$harley: rgb(187, 220, 255);
+$terminal_bg: #111;
 $border-gray: #DEDCDE;
 
 .container {
     margin: 0 auto;
-    width: 60vw;
+    width: 80vw;
     padding-top: 2em;
 }
 
 .t-window {
     height: 60vh;
     width: 100%;
-    background: $charlotte;
+    background: $terminal_bg;
     border: 4px solid $border-gray;
     .top {
       height: 1em;
