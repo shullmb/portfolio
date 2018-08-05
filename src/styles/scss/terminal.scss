@@ -29,12 +29,14 @@ $border-gray: #DEDCDE;
     .terminal {
         padding: 1em;
         color: #eee;
-        font-family: Consolas, 'Courier New', monospace;
+        font-family: $monofonts;
+        overflow: scroll;
         .cpu {
           color: cyan;
         }
         #output {
             color: rgba(238, 238, 238, 0.85);
+            overflow: hidden;
         }
     }
 }

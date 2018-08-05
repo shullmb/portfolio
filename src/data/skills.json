@@ -1,0 +1,42 @@
+[
+  {
+    "skill": "JavaScript",
+    "set": "fab",
+    "icon": "js"
+  },
+  {
+    "skill": "HTML",
+    "set": "fab",
+    "icon": "html5"
+  },
+  {
+    "skill": "CSS",
+    "set": "fab",
+    "icon": "css3"
+  },
+  {
+    "skill": "SASS",
+    "set": "fab",
+    "icon": "sass"
+  },
+  {
+    "skill": "Ruby",
+    "set": "far",
+    "icon": "gem"
+  },
+  {
+    "skill": "Python",
+    "set": "fab",
+    "icon": "python"
+  },
+  {
+    "skill": "YAML",
+    "set": "fas",
+    "icon": "align-right"
+  },
+  {
+    "skill": "Ruby",
+    "set": "far",
+    "icon": "gem"
+  }
+]

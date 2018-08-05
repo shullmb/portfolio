@@ -21,8 +21,10 @@
   .t-window .terminal {
     padding: 1em;
     color: #eee;
-    font-family: Consolas, 'Courier New', monospace; }
+    font-family: 'Fira Mono',Consolas, 'Courier New', monospace;
+    overflow: scroll; }
     .t-window .terminal .cpu {
       color: cyan; }
     .t-window .terminal #output {
-      color: rgba(238, 238, 238, 0.85); }
+      color: rgba(238, 238, 238, 0.85);
+      overflow: hidden; }
