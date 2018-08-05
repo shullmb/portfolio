@@ -13,26 +13,31 @@ body {
 
 nav {
   grid-area: menu;
-  background-color: #FFF;
+  background-color: #EEE;
   padding-top: 1em; }
   nav ul {
     list-style-type: none; }
     nav ul a {
       text-decoration: none;
-      color: black; }
+      color: #111; }
     nav ul li {
       font-family: "Fira Mono", Consolas, "Courier New", monospace;
-      margin: 0.5em auto;
+      margin: 0.5em 0;
+      padding: 0.25em;
       font-weight: bold;
       display: block;
       width: 100%; }
     nav ul li:hover, nav ul li:focus {
       background-color: #111;
-      color: #FFF; }
+      color: #EEE; }
 
 main {
   grid-area: main;
-  background-color: #FFF; }
+  background-color: #EEE; }
+
+header a {
+  text-decoration: none;
+  color: #111; }
 
 footer {
   grid-area: footer;
@@ -40,7 +45,7 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  /* background-color: #FFF; */ }
+  /* background-color: $slightlywhite; */ }
   footer p {
     font-size: 0.8rem; }
 
@@ -69,7 +74,7 @@ footer {
 
 .proj_info {
   padding: 2em;
-  color: #FFF; }
+  color: #EEE; }
   .proj_info h3 {
     color: #eee;
     text-align: center; }
@@ -89,14 +94,14 @@ footer {
   margin: 1em 0;
   padding: 1em;
   border-width: 0;
-  background-color: #FFF;
+  background-color: #EEE;
   color: #000;
   transition: background-color .3s;
   text-decoration: none; }
 
 .btn:hover, .btn:focus {
   background-color: #444;
-  color: #FFF; }
+  color: #EEE; }
 
 .btn > * {
   position: relative; }

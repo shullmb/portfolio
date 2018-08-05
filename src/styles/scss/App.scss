@@ -4,7 +4,7 @@ $slightlywhite: #EEE;
 
 
 body {
-  background-color: $slightlyback;
+  background-color: $slightlyblack;
   font-family: Arial, Helvetica, sans-serif;
   
 }
@@ -25,6 +25,10 @@ nav {
   padding-top: 1em;
   ul {
     list-style-type: none;
+    a {
+      text-decoration: none;
+      color: $slightlyblack;
+    }
     li {
       font-family: $monofonts;
       margin: 0.5em 0;
@@ -34,7 +38,7 @@ nav {
       width: 100%;
     }
     li:hover, li:focus {
-      background-color: $slightlyback;
+      background-color: $slightlyblack;
       color: $slightlywhite;
     }
   }
@@ -83,7 +87,7 @@ footer {
 }
 
 .project {
-  background: $slightlyback;
+  background: $slightlyblack;
   display: flex;
   padding: 1em 1em 1em 0em;
 }
