@@ -1,0 +1,154 @@
+body {
+  background-color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#container {
+  min-height: 99vh;
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: 16em 1fr;
+  grid-template-rows: 1fr 2em;
+  grid-template-areas: "menu main"
+                       "footer footer";
+}
+
+nav {
+  grid-area: menu;
+  background-color: #FFF;
+}
+main {
+  grid-area: main;
+  background-color: #FFF;
+}
+footer {
+  grid-area: footer;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* background-color: #FFF; */
+}
+
+.content {
+  padding: 1em 2em;
+}
+
+.logo {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+#projects {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(2, .5fr [col-start]);
+  grid-template-rows: repeat(2, .5fr [row-start]);
+
+}
+
+.project {
+  background: #444;
+  display: flex;
+  padding: 1em 1em 1em 0em;
+}
+
+.project img {
+  width: 1fr;
+  height: 1fr;
+}
+
+.proj_info {
+  padding: 2em;
+  color: #FFF;
+}
+
+.proj_info h3 {
+  color: #eee;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.btn {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 1em auto;
+  padding: 1em;
+  border-width: 0;
+  background-color: #FFF;
+  color: #000;
+  transition: background-color .3s;
+  text-transform: uppercase;  
+  text-decoration: none;
+  text-align: center
+}
+
+.btn:hover, .btn:focus {
+  background-color: #444;
+  color: #FFF;
+}
+
+.btn > * {
+  position: relative;
+}
+
+.btn span {
+  display: block;
+  padding: 12px 24px;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0;
+  padding-top: 0;
+  border-radius: 100%;
+  background-color: rgba(236, 240, 241, .3);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+/* Styles, not important */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 8em 1fr 4em;
+    grid-template-areas: "menu"
+                         "main"
+                         "footer";
+  }
+
+  .logo {
+    display: none;
+  }
+
+  #projects {
+    display: block;
+  }
+}
