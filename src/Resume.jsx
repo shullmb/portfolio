@@ -1,11 +1,15 @@
 import React from 'react';
-import { Document as PDF } from 'react-pdf';
+import { Document, Page } from 'react-pdf/dist/entry.webpack';
+import resume from './img/Resume.pdf'
 
 
 export const Resume = props => {
+  let pageNumber = 1
   return (
     <div>
-      <PDF file="./img/mbs_resume_0718.pdf" />
+      <Document file={resume} onLoadSuccess={this.onDocumentLoad} >
+        <Page pageNumber={pageNumber} />
+      </Document>
     </div>
   )
 }

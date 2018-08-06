@@ -2,7 +2,7 @@
   {
     "skill": "JavaScript",
     "set": "fab",
-    "icon": "js"
+    "icon": "js-square"
   },
   {
     "skill": "HTML",
@@ -35,8 +35,14 @@
     "icon": "align-right"
   },
   {
-    "skill": "Ruby",
-    "set": "far",
-    "icon": "gem"
+    "skill": "React",
+    "set": "fab",
+    "icon": "react"
+  },
+  {
+    "skill": "NodeJS",
+    "set": "fab",
+    "icon": "node"
   }
+
 ]
