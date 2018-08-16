@@ -5,12 +5,13 @@ import Projects from './Projects';
 import { Nav } from './Nav';
 import { Resume } from './Resume';
 import { Skills } from './Skills';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { Header } from './Header';
 
-library.add(fab)
+library.add(fab, faHeart);
 
 class App extends Component {
   render() {
@@ -31,7 +32,7 @@ class App extends Component {
               <Route exact path="/skills" component={Skills} />
             </Switch>
         </main>
-        <footer><p>i'm a developer not a designer | &copy; 2018 mbshull </p></footer>
+          <footer><p>built with <FontAwesomeIcon icon={'heart'} /> and <FontAwesomeIcon icon={['fab', 'react']} /> | i'm a developer not a designer | &copy; 2018 mbshull </p></footer>
       </div>
     </Router>
     );

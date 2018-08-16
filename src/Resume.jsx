@@ -6,9 +6,9 @@ import resume from './img/Resume.pdf'
 export const Resume = props => {
   let pageNumber = 1
   return (
-    <div>
-      <Document file={resume} onLoadSuccess={this.onDocumentLoad} >
-        <Page pageNumber={pageNumber} />
+    <div style={{textAlign: 'center'}}>
+      <Document file={resume} onLoadSuccess={this.onDocumentLoad}>
+        <Page pageNumber={pageNumber} renderMode="svg" scale='2.0' />
       </Document>
     </div>
   )

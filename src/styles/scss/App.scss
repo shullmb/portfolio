@@ -58,7 +58,7 @@ header {
 
 footer {
   grid-area: footer;
-  color: #222;
+  color: #444;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -171,6 +171,11 @@ footer {
 /* Styles, not important */
 *, *:before, *:after {
   box-sizing: border-box;
+}
+
+.react-pdf_Page_svg {
+  margin: 0 auto;
+  width: 60vw;
 }
 
 @media only screen and (max-width: 600px) {

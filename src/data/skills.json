@@ -43,6 +43,16 @@
     "skill": "NodeJS",
     "set": "fab",
     "icon": "node"
+  },
+  {
+    "skill": "gulp",
+    "set": "fab",
+    "icon": "gulp"
+  },
+  {
+    "skill": "webpack",
+    "set": "fab",
+    "icon": "codepen"
   }
 
 ]
