@@ -98,6 +98,9 @@ footer {
   transition: background-color .3s;
   text-decoration: none; }
 
+.proj-btn {
+  text-align: center; }
+
 .btn:hover, .btn:focus {
   background-color: #444;
   color: #EEE; }
@@ -147,5 +150,3 @@ footer {
     display: none; }
   #projects {
     display: block; } }
-
-/*# sourceMappingURL=App.css.map */

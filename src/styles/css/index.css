@@ -99,6 +99,9 @@ footer {
   transition: background-color .3s;
   text-decoration: none; }
 
+.proj-btn {
+  text-align: center; }
+
 .btn:hover, .btn:focus {
   background-color: #444;
   color: #EEE; }
@@ -212,5 +215,3 @@ footer {
     color: transparent; }
   50% {
     color: white; } }
-
-/*# sourceMappingURL=index.css.map */

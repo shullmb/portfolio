@@ -1,34 +1,34 @@
 [
   {
-    "name": "Theft Mapper",
+    "title": "Theft Mapper",
     "tech": ["Node", "Express", "EJS", "Postgres"],
     "summary": "An application to view bike theft data. THFTMPPR taps into data collected by bikeindex.org and displays it on a map with 4 different visualization layers, pinpoint, heatmap, Delaunay Triangulations and Voronoi polygons.",
-    "img":"img/thftmp_thumb.png",
+    "img":"thftmp_thumb.png",
     "gh": "https://github.com/shullmb/theftmap",
     "live": "https://thftmapper.herokuapp.com/"
   },
   {
-    "name": "Dungeon of DOOM",
+    "title": "Dungeon of DOOM",
     "tech": ["Vanilla JavaScript", "HTML5 Canvas"],
     "summary": "Roam the deep and battle it out with dwellers of the dark places. A dungeon crawl with turn based dice battle mechanics.",
-    "img": "img/dungeon_thumb.png",
+    "img": "dungeon_thumb.png",
     "gh": "https://github.com/shullmb/dungeon-crawler",
     "live": "http://www.mbshull.com/dungeon/"
   },
   {
-    "name": "Multapply",
+    "title": "Multapply",
     "tech": ["MongoDB","Express","React","Node"],
     "summary": "A collaborative work in progress.",
-    "img":"",
+    "img":"placeholder.png",
     "gh": "https://github.com/shullmb/multapply",
     "live": "https://nameless-bayou-99030.herokuapp.com/"
   },
   {
-    "name": "Optiplot",
+    "title": "Optiplot",
     "tech": ["MongoDB","Express","React","Node", "SASS"],
     "summary": "A full stack application to plan your garden. Optiplot aims to help optimize your background garden space by helping you group compati",
-    "img":"",
-    "gh": "",
-    "live": ""
+    "img":"placeholder.png",
+    "gh": "https://github.com/shullmb/opti-plot",
+    "live": "https://opti=plot.herokuapp.com/"
   }
 ]
