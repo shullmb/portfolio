@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { Header } from './Header';
+import NotFound from './NotFound';
 
 library.add(fab, faHeart);
 
@@ -30,6 +31,7 @@ class App extends Component {
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/resume" component={Resume} />
               <Route exact path="/skills" component={Skills} />
+              <Route component={(props) => <NotFound {...props} />} /> 
             </Switch>
         </main>
           <footer><p>built with <FontAwesomeIcon icon={'heart'} /> and <FontAwesomeIcon icon={['fab', 'react']} /> | i'm a developer not a designer | &copy; 2018 mbshull </p></footer>
