@@ -11,7 +11,7 @@ export const Project = props => {
 
   return (
     <div className="project">
-      <div className="proj_info">
+      <div className="proj_info fade-in">
         <h3>{props.title}</h3>
         <p>{props.summary}</p>
         <a className="btn proj-btn" target="_blank" href={props.gh}> 

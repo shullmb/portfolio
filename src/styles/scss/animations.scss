@@ -4,7 +4,14 @@
   -ms-animation: $interval blink step-end infinite;
   -o-animation: $interval blink step-end infinite;
   animation: $interval blink step-end infinite;
+}
 
+@mixin fadeInOpacity($interval) {
+  -webkit-animation: $interval fadeInOpacity ease-in;
+  -moz-animation: $interval fadeInOpacity ease-in;
+  -ms-animation: $interval fadeInOpacity ease-in;
+  -o-animation: $interval fadeInOpacity ease-in;
+  animation: $interval fadeInOpacity ease-in;
 }
 
 @mixin keyframes($name) {
@@ -28,6 +35,11 @@
   @include blink(1s);
 }
 
+#fade-in {
+	// opacity: 1;
+  @include fadeInOpacity(3s)
+}
+
 @include keyframes(blink) {
   from, to {
     color: transparent;
@@ -35,4 +47,15 @@
   50% {
     color: white;
   }
+}
+
+@include keyframes(fadeInOpacity) {
+  from { opacity: 0};
+  to {opacity: 1;}
+  // from, to {
+  //   opacity: 0;
+  // }
+  // 100% {
+  //   opacity: 1;
+  // }
 }
