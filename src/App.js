@@ -17,7 +17,7 @@ library.add(fab, faHeart);
 class App extends Component {
   render() {
     let command = "cat about.me"
-    let output = "Web Developer with a demonstrated history of organized problem solving, process improvement, technical training and communication. Skilled in JavaScript and object oriented programming, with a serious crush on Ruby. When I'm not hacking away at my keyboard, you can find me on a bike or roaming the trails with my wife and dog!"
+    let output = "Web Developer with a demonstrated history of organized problem solving, process improvement, technical training and communication. Skilled with JavaScript and object oriented programming, with a serious crush on Ruby. When I'm not hacking away at my keyboard, you can find me on a bike or roaming the trails with my wife and dog!"
     return (
     <Router>
       <div id="container">

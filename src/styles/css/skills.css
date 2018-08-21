@@ -1,0 +1,9 @@
+#skills {
+  display: flex; }
+
+.skill {
+  display: inline-block;
+  margin: 2em 4em;
+  text-align: center; }
+
+/*# sourceMappingURL=skills.css.map */
