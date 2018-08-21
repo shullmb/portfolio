@@ -1,11 +1,11 @@
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGem, faAlignRight } from '@fortawesome/free-solid-svg-icons'
+import { faGem, faAlignRight, faCloud } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import data from './data/skills.json';
 
-library.add(fab, faGem, faAlignRight)
+library.add(fab, faGem, faAlignRight, faCloud)
 
 export const Skills = props => {
   const skills = data.map( (skill, i) => {

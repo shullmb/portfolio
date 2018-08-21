@@ -53,6 +53,11 @@
     "skill": "webpack",
     "set": "fab",
     "icon": "codepen"
+  },
+  {
+    "skill": "Adobe Creative Cloud",
+    "set": "fas",
+    "icon": "cloud"
   }
 
 ]

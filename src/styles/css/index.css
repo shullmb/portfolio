@@ -69,8 +69,8 @@ footer {
   padding: 1em 1em 1em 0em; }
 
 .project img {
-  width: 1fr;
-  height: 1fr; }
+  max-width: 100%;
+  height: auto; }
 
 .proj_info {
   padding: 2em;
@@ -80,7 +80,7 @@ footer {
     text-align: center; }
 
 .skill {
-  display: inline-block;
+  display: block;
   margin: 2em 4em;
   text-align: center; }
 

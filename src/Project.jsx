@@ -10,8 +10,8 @@ library.add(fab,faWindowRestore);
 export const Project = props => {
 
   return (
-    <div className="project">
-      <div className="proj_info fade-in">
+    <div className="project fade-in">
+      <div className="proj_info">
         <h3>{props.title}</h3>
         <p>{props.summary}</p>
         <a className="btn proj-btn" target="_blank" href={props.gh}> 

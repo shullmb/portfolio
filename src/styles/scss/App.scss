@@ -93,8 +93,8 @@ footer {
 }
 
 .project img {
-  width: 1fr;
-  height: 1fr;
+  max-width: 100%;
+  height: auto;
 }
 
 .proj_info {
@@ -107,7 +107,7 @@ footer {
 }
 
 .skill {
-  display: inline-block;
+  display: block;
   margin: 2em 4em;
   text-align: center;
 }
@@ -126,7 +126,6 @@ footer {
   background-color: $slightlywhite;
   color: #000;
   transition: background-color .3s;
-  // text-transform: uppercase;  
   text-decoration: none;
 }
 

@@ -16,19 +16,19 @@
     "live": "http://www.mbshull.com/dungeon/"
   },
   {
-    "title": "Multapply",
-    "tech": ["MongoDB","Express","React","Node"],
-    "summary": "A collaborative work in progress.",
-    "img":"placeholder.png",
-    "gh": "https://github.com/shullmb/multapply",
-    "live": "https://nameless-bayou-99030.herokuapp.com/"
+    "title": "mbshull.com",
+    "tech": ["React","SASS"],
+    "summary": "This portfolio was created with love and React. Please submit all complaints regarding the design in writing to shullmb@gmail.com",
+    "img":"portfolio_thumb.gif",
+    "gh": "https://github.com/shullmb/portfolio",
+    "live": "/projects"
   },
   {
     "title": "Optiplot",
     "tech": ["MongoDB","Express","React","Node", "SASS"],
     "summary": "A full stack application to plan your garden. Optiplot aims to help optimize your background garden space by helping you group compati",
-    "img":"placeholder.png",
+    "img":"optiplot_thumb.png",
     "gh": "https://github.com/shullmb/opti-plot",
-    "live": "https://opti=plot.herokuapp.com/"
+    "live": "https://opti-plot.herokuapp.com/"
   }
 ]

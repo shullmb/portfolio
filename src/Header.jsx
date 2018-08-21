@@ -8,7 +8,7 @@ library.add(fab)
 export const Header = props => {
   return (
     <header>
-      <h1>Michael Shull
+      <h1>Michael Shull | Full Stack Web Developer
             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/shullmb/" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} color='#111' size='1x' pull='right' /> </a>
             <a rel="noopener noreferrer" href="https://www.freecodecamp.org/shullmb" target="_blank"><FontAwesomeIcon icon={['fab', 'free-code-camp']} color='#111' size='1x' pull='right' /> </a>
             <a rel="noopener noreferrer" href="https://github.com/shullmb" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} color='#111' size='1x' pull='right' /> </a>
