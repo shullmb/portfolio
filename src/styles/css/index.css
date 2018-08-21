@@ -79,11 +79,6 @@ footer {
     color: #eee;
     text-align: center; }
 
-.skill {
-  display: block;
-  margin: 2em 4em;
-  text-align: center; }
-
 .hidden {
   display: none; }
 
@@ -182,6 +177,14 @@ footer {
     .t-window .terminal #output {
       color: rgba(238, 238, 238, 0.85);
       overflow: hidden; }
+
+#skills {
+  display: flex; }
+
+.skill {
+  display: inline-block;
+  margin: 2em 4em;
+  text-align: center; }
 
 #blinking-cursor {
   font-weight: 800;
