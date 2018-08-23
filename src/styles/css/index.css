@@ -170,8 +170,7 @@ footer {
   .t-window .terminal {
     padding: 1em;
     color: #eee;
-    font-family: "Fira Mono", Consolas, "Courier New", monospace;
-    overflow: scroll; }
+    font-family: "Fira Mono", Consolas, "Courier New", monospace; }
     .t-window .terminal .cpu {
       color: cyan; }
     .t-window .terminal #output {
