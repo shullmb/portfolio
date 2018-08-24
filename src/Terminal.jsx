@@ -11,8 +11,8 @@ class Terminal extends Component {
   }
 
   componentDidMount() {
-    let str = this.props.command ? this.props.command : "echo 'some other shit broke'"
-    let output = this.props.output ? this.props.output : "some other shit broke"
+    let str = this.props.command ? this.props.command : "echo 'some other stuff broke'"
+    let output = this.props.output ? this.props.output : "some other stuff broke"
     let arr = str.split('')
     let command = []
     let callback_timeout = str.length*100 + 800;
