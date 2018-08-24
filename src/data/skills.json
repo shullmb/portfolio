@@ -2,62 +2,134 @@
   {
     "skill": "JavaScript",
     "set": "fab",
-    "icon": "js-square"
+    "icon": "js-square",
+    "lib": false,
+    "tool": false
   },
   {
     "skill": "HTML",
     "set": "fab",
-    "icon": "html5"
+    "icon": "html5",
+    "lib": false,
+    "tool": false
   },
   {
     "skill": "CSS",
     "set": "fab",
-    "icon": "css3"
+    "icon": "css3",
+    "lib": false,
+    "tool": false
   },
   {
     "skill": "SASS",
     "set": "fab",
-    "icon": "sass"
+    "icon": "sass",
+    "lib": false,
+    "tool": true
   },
   {
     "skill": "Ruby",
     "set": "far",
-    "icon": "gem"
+    "icon": "gem",
+    "lib": false,
+    "tool": false
   },
   {
     "skill": "Python",
     "set": "fab",
-    "icon": "python"
+    "icon": "python",
+    "lib": false,
+    "tool": false
   },
   {
-    "skill": "YAML",
+    "skill": "SQL",
     "set": "fas",
-    "icon": "align-right"
+    "icon": "asterisk",
+    "lib": false,
+    "tool": false
   },
   {
     "skill": "React",
     "set": "fab",
-    "icon": "react"
+    "icon": "react",
+    "lib": true,
+    "tool": false
   },
   {
     "skill": "NodeJS",
     "set": "fab",
-    "icon": "node"
+    "icon": "node-js",
+    "lib": true,
+    "tool": false
+  },
+  {
+    "skill": "Express",
+    "set": "fas",
+    "icon": "server",
+    "lib": true,
+    "tool": false
+  },
+  {
+    "skill": "Rails",
+    "set": "fas",
+    "icon": "ruler",
+    "lib": true,
+    "tool": false
+  },
+  {
+    "skill": "Django",
+    "set": "fas",
+    "icon": "indent",
+    "lib": true,
+    "tool": false
   },
   {
     "skill": "gulp",
     "set": "fab",
-    "icon": "gulp"
+    "icon": "gulp",
+    "lib": false,
+    "tool": true
   },
   {
     "skill": "webpack",
     "set": "fab",
-    "icon": "codepen"
+    "icon": "codepen",
+    "lib": false,
+    "tool": true
   },
   {
     "skill": "Adobe Creative Cloud",
     "set": "fas",
-    "icon": "cloud"
+    "icon": "cloud",
+    "lib": false,
+    "tool": true
+  },
+  {
+    "skill": "Zurb Foundation",
+    "set": "fas",
+    "icon": "space-shuttle",
+    "lib": true,
+    "tool": false
+  },
+  {
+    "skill": "Bootstrap",
+    "set": "fas",
+    "icon": "bold",
+    "lib": true,
+    "tool": false
+  },
+  {
+    "skill": "Materialize",
+    "set": "fab",
+    "icon": "google",
+    "lib": true,
+    "tool": false
+  },
+  {
+    "skill": "jQuery",
+    "set": "fas",
+    "icon": "dollar-sign",
+    "lib": true,
+    "tool": false
   }
-
 ]
