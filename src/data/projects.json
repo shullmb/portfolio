@@ -9,7 +9,7 @@
   },
   {
     "title": "Dungeon of DOOM",
-    "tech": ["Vanilla JavaScript", "HTML5 Canvas"],
+    "tech": ["Vanilla Javascript", "HTML Canvas"],
     "summary": "Roam the deep and battle it out with dwellers of the dark places. A dungeon crawl with turn based dice battle mechanics.",
     "img": "dungeon_thumb.png",
     "gh": "https://github.com/shullmb/dungeon-crawler",
@@ -18,17 +18,49 @@
   {
     "title": "mbshull.com",
     "tech": ["React","SASS"],
-    "summary": "This portfolio was created with love and React. Please submit all complaints regarding the design in writing to shullmb@gmail.com",
+    "summary": "This portfolio was created with love and React. Please submit all complaints regarding the design in writing to me@mbshull.com",
     "img":"portfolio_thumb.gif",
     "gh": "https://github.com/shullmb/portfolio",
     "live": "http://www.mbshull.com"
   },
   {
+    "title": "Frost Date API",
+    "tech": ["Python","pandas","Node","Express", "Postgres"],
+    "summary": "An API to return first and last frost-freeze dates for all NOAA weather stations within a specified radius  of a given zipcode",
+    "img":"portfolio_thumb.gif",
+    "gh": "https://github.com/shullmb/fp_api",
+    "live": "http://www.mbshull.com"
+  },
+  {
+    "title": "Pangram Ipsum",
+    "tech": ["React"],
+    "summary": "A Saturday afternoon project inspired by a tweet about Lorem Ipsum scaring away a squarespace user. I decided to see how quickly I could get a Pangram Ipsum generator deployed. Result: ~2 hours from conception to v1.",
+    "img":"pg_ipsum_thumb.gif",
+    "gh": "https://github.com/shullmb/pg_ipsum",
+    "live": "http://www.mbshull.com/pangram"
+  },
+  {
+    "title": "Color Swatch Library",
+    "tech": ["React", "Node","Express","MongoDB", "SASS"],
+    "summary": "Programmatically created Swatch library with Tints and Shades.",
+    "img":"hh-challenge_thumb.gif",
+    "gh": "https://github.com/shullmb/hh-challenge",
+    "live": "https://mbs-helpful-challenge.herokuapp.com/"
+  },
+  {
     "title": "Optiplot",
     "tech": ["MongoDB","Express","React","Node", "SASS"],
-    "summary": "A full stack application to plan your garden. Optiplot aims to help optimize your background garden space by helping you group compati",
+    "summary": "A full stack application to plan your garden. Optiplot aims to help optimize your background garden space by helping you group compatible plants together while optimizing your use of space",
     "img":"optiplot_thumb.png",
     "gh": "https://github.com/shullmb/opti-plot",
     "live": "https://opti-plot.herokuapp.com/"
+  },
+  {
+    "title": "Tomato Time",
+    "tech": ["Electron","Vanilla Javascript","Node"],
+    "summary": "Proof of Concept: A Pomodoro timer built with Electron",
+    "img":"tomato_time_thumb.gif",
+    "gh": "https://github.com/shullmb/electest",
+    "live": ""
   }
 ]

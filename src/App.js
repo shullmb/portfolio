@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       terminal: {
         command: "cat about.me",
-        output: "Web Developer with a demonstrated history of organized problem solving, process improvement, technical training and communication. Skilled with JavaScript and object oriented programming, with a serious crush on Ruby. When I'm not hacking away at my keyboard, you can find me on a bike or roaming the trails with my wife and dog!"
+        output: "Web Developer with a demonstrated history of organized problem solving, process improvement, technical training and communication. Skilled with JavaScript, React, Node and can quit vim without googling. When I'm not hacking away at my keyboard, you can find me on a bike or roaming the trails with my wife and dog!"
       }
     }
   }
